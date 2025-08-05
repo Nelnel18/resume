@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #7b9e8c;
+  color: #333;
+}
+
+.resume {
+  display: flex;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  width: 30%;
+  background: #2f3e51;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.sidebar ul li {
+  margin: 8px 0;
+}
+
+.sidebar p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.profile-pic img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 70%;
+  padding: 30px;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #2f3e51;
+}
+
+header h3 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 25px;
+}
+
+hr h2 {
+  color: #2f3e51;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.education {
+  margin-bottom: 15px;
+}
+
+.education h4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #333;
+}
+
+.education ul {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.education ul li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}

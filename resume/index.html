@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MY RESUME</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #7b9e8c;
+      color: #333;
+    }
+
+    .resume {
+      display: flex;
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar {
+      width: 30%;
+      background: #2f3e51;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar h2 {
+      margin-top: 20px;
+      font-size: 18px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      margin: 10px 0;
+    }
+
+    .sidebar ul li {
+      margin: 8px 0;
+    }
+
+    .sidebar p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .profile-pic img {
+      width: 100%;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .content {
+      width: 70%;
+      padding: 30px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      color: #2f3e51;
+    }
+
+    header h3 {
+      font-size: 18px;
+      font-weight: normal;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      margin-bottom: 25px;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+
+    h2.Education {
+      margin-bottom: 15px;
+      color: #2f3e51;
+      font-size: 22px;
+    }
+
+    .text1 b.zoom-text {
+      cursor: default;
+    }
+
+    .p1 {
+      margin-bottom: 15px;
+    }
+
+    /* Download button styles */
+    .download-btn {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #2f3e51;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #455a72;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <aside class="sidebar">
+      <div class="profile-pic">
+        <img src="img.jpg" alt="Profile Picture">
+      </div>
+      <h2>Contact</h2>
+      <ul>
+        <li>📞 09817179107</li>
+        <li>📩 jannelrada5@gmail.com</li>
+        <li>📍 Purok 2 Sta.Lucia Capas, Tarlac</li>
+        <li>📱 Jannel Rada</li>
+        <li>📸 _nelzky</li>
+      </ul>
+
+      <h2>SKILLS</h2>
+      <ul>
+        <li>HTML</li>
+        <li>JAVA SCRIPT</li>
+        <li>PHOTOSHOOP</li>
+        <li>UI DESIGN</li>
+        <li>BLENDER</li>
+      </ul>
+
+      <h2>HOBBIES</h2>
+      <ul>
+        <li>DANCING</li>
+        <li>WATCHING HORROR</li>
+        <li>WATCHING ANIME</li>
+        <li>PLAYING GAMES</li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <header>
+        <h1>Jannel C. Rada</h1>
+        <h3>Graphic Designer</h3>
+      </header>
+
+      <hr>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Jannel Rada, 20 years old and currently in my 3rd year of studying for a Bachelor of Information Technology. I have an interest in technology, especially in areas like programming, system development, and IT solutions. I'm passionate about learning, growing, and preparing myself for a future in the tech industry.
+        Outside of academics, one of the most important parts of my life is my family. I deeply love and value them—they are my biggest motivation and support system. Their encouragement inspires me to work hard and stay focused on my goals.
+      </p>
+
+      <hr>
+      <h2 class="Education">EDUCATION</h2>
+
+      <span class="text1"><b class="zoom-text" tabindex="0">Elementary - San Juan Elementary School</b></span>
+      <p class="p1">Year: 2011 - 2017</p> 
+
+      <span class="text1"><b class="zoom-text" tabindex="0">High School - San Juan National High School</b></span>
+      <p class="p1">Year: 2017 - 2021</p>
+
+      <span class="text1"><b class="zoom-text" tabindex="0">Senior High School - Sta. Lucia National High School</b></span>
+      <p class="p1">Year: 2021 - 2023</p>
+
+      <span class="text1"><b class="zoom-text" tabindex="0">College - Dominican College Of Tarlac</b></span>
+      <p class="p1">Year: 2023 - Present</p>
+
+      <hr class="line1">
+
+      <h2>EXPERIENCE</h2>
+      <p>
+        I have experience working on a project for our Software Analysis and Design (SAD) course, where we developed an application using multiple programming languages including HTML, CSS, JavaScript, and Java.
+      </p>
+
+      <a href="Jannel_Rada_Resume.pdf" download class="download-btn">Download</a>
+
+    </main>
+  </div>
+</body>
+</html>
